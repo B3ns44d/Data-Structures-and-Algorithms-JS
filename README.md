@@ -34,4 +34,21 @@ Queue is similar to Stack. The only difference is that Queue uses the FIFO princ
 
 A queue has just two main operations: enqueue and dequeue. Enqueue means to insert an item into the back of the queue and dequeue means removing the front item.
 
-**Take a look at the [Queues.js](https://github.com/B3ns44d/Data-Structures-and-Algorithms-JS/blob/master/Queues.js) function**
+**Take a look at the [Queues.js](https://github.com/B3ns44d/Data-Structures-and-Algorithms-JS/blob/master/Sets.js) function**
+
+## Priority Queue
+A priority queue is a special type of queue in which each element is associated with a priority and is served according to its priority. If elements with the same priority occur, they are served according to their order in the queue.
+
+Generally, the value of the element itself is considered for assigning the priority.
+
+For example, The element with the highest value is considered as the highest priority element. However, in other cases, we can assume the element with the lowest value as the highest priority element. In other cases, we can set priorities according to our needs.
+
+![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/Introduction.png)
+
+### Difference between Priority Queue and Normal Queue
+
+In a queue, the  **first-in-first-out rule**  is implemented whereas, in a priority queue, the values are removed  **on the basis of priority**. The element with the highest priority is removed first.
+
+![enter image description here](https://www.tutorialspoint.com/data_structures_algorithms/images/queue_insert.jpg)
+
+**Take a look at the [PriorityQueue.js](https://github.com/B3ns44d/Data-Structures-and-Algorithms-JS/blob/master/PriorityQueue.js) function**
