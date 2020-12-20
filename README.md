@@ -23,3 +23,15 @@ The set data structure stores values without any particular order and with no re
 -   Subset — This returns a boolean value that shows if all the elements in one set are included in a different set.
 ![enter image description here](https://www.codeproject.com/KB/recipes/dotnetset/Sets02.png)
 
+**Take a look at the [Sets.js](https://github.com/B3ns44d/Data-Structures-and-Algorithms-JS/blob/master/Sets.js) function**
+
+## Queues & Priority Queues
+
+Queue is similar to Stack. The only difference is that Queue uses the FIFO principle (First In First Out). In other words, when you queue for bus, the first in the queue will always board first, for ex you can think of a queue as a line of people at a grocery store. The first one in the line is the first one to be served. Just like a queue.
+![enter image description here](https://miro.medium.com/max/3148/0*TRbfsq86lqDoqW6b.png)
+
+![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/1200px-Data_Queue.svg.png)
+
+A queue has just two main operations: enqueue and dequeue. Enqueue means to insert an item into the back of the queue and dequeue means removing the front item.
+
+**Take a look at the [Queues.js](https://github.com/B3ns44d/Data-Structures-and-Algorithms-JS/blob/master/Queues.js) function**
